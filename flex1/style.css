@@ -6,17 +6,26 @@
     font-weight: bold;
     border: 1px solid black;
     min-height: 100px;
+    width:25%;
 }
 
 .prvni { background-color: #2ecc71;}
-.druhy { background-color: #f1c40f;}
+.druhy { 
+    background-color: #f1c40f;
+    order: -2;
+}
 .treti { background-color: #3498db;}
-.ctvrty { background-color: #e74c3c;}
+.ctvrty { background-color: #e74c3c;
+    order: -1;    
+}
 
 .kontejner {
     padding: 10px;
     border: 1px dashed red;
     background-color: #ffffcc;
+    display: flex;
+  
+
 }
 
 /* ---------------------------------------------------- */

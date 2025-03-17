@@ -15,12 +15,29 @@ body {
 
 .levy {
   background-color: #f1c40f;
-}
-.horni {
-  background-color: #2ecc71;
-}
-.dolni {
-  background-color: #e74c3c;
+  flex-grow: 1;
 }
 
+.pravy {
+  flex-grow: 1;
+}
+
+
+.horni {
+  background-color: #2ecc71;
+  height: 50%;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.dolni {
+  background-color: #e74c3c;
+  height: 50%;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.kontejner {
+  display: flex;
+}
 /* ---------------------------------------------------- */
